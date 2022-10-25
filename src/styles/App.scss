@@ -1,0 +1,91 @@
+$bgcolor: #ADCBD7;
+$textColor: #406882;
+$blockColor: #924BED;
+$fontfamily: 'Courier New', Courier, monospace;
+
+body {
+    background-color: $bgcolor;
+}
+
+.mainText {
+    color: $textColor;
+    font-size: 50px;
+    font-family: $fontfamily;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.block_first {
+    width: 650px;
+    height: 350px;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: left;
+    justify-content: center;
+    background-color: $blockColor;
+    opacity: .5;
+    padding: 30px;
+}
+
+.cityChoose {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#city {
+    width: 250px;
+    height: 80px;
+    border-radius: 25px;
+    border: 2px solid $textColor;
+    font-size: 35px;
+    font-family: $fontfamily;
+    color: $bgcolor;
+    outline: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    width: 700px;
+    height: 75px;
+    border-radius: 25px;
+    border: 2px solid $textColor;
+    font-size: 35px;
+    font-family: $fontfamily;
+    color: $bgcolor;
+    text-align: center;
+    outline: none;
+}
+
+p {
+    font-size: 50px;
+    font-family: $fontfamily;
+    color: $bgcolor;
+    margin: 5px;
+    font-weight: 600;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: $fontfamily;
+    color: $bgcolor;
+    margin: 0;
+}

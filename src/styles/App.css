@@ -1,0 +1,114 @@
+body {
+  background-color: #ADCBD7;
+}
+
+.mainText {
+  color: #406882;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block_first {
+  width: 650px;
+  height: 350px;
+  border-radius: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #924BED;
+  opacity: 0.5;
+  padding: 30px;
+}
+
+.cityChoose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#city {
+  width: 250px;
+  height: 80px;
+  border-radius: 25px;
+  border: 2px solid #406882;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ADCBD7;
+  outline: none;
+  cursor: pointer;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  height: 75px;
+  border-radius: 25px;
+  border: 2px solid #406882;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ADCBD7;
+  text-align: center;
+  outline: none;
+}
+
+p {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ADCBD7;
+  margin: 5px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: #ADCBD7;
+  margin: 0;
+}
